@@ -82,8 +82,9 @@ export default function Nav() {
                     src="/assets/Logo.png"
                     height={100}
                     width={120}
+                    priority
                     alt="Jobes Boxing Gym logo"
-                    className="w-25 md:w-40"
+                    className="h-5 w-auto"
                   />
                 </motion.div>
               </Link>
@@ -109,7 +110,7 @@ export default function Nav() {
                   rel="noopener noreferrer"
                   className="flex cursor-pointer items-center gap-1 rounded-lg border-2 border-white px-4 py-3 text-[14px] font-bold tracking-[-5%] uppercase transition-colors duration-300 hover:bg-white hover:text-black md:py-4 md:px-5"
                 >
-                  Book a session
+                  Get started
                   <LuArrowRight className="text-[20px]" />
                 </Link>
               </motion.div>
@@ -126,9 +127,8 @@ export default function Nav() {
           </motion.div>
         </div>
       </div>
-<AnimatePresence>
-  {menuOpen && <Menu setMenuOpen={setMenuOpen} />}
-</AnimatePresence>    </nav>
+      <AnimatePresence>{menuOpen && <Menu setMenuOpen={setMenuOpen} />}</AnimatePresence>{" "}
+    </nav>
   );
 }
 
