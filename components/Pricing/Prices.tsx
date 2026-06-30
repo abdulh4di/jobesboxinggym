@@ -98,7 +98,7 @@ export default function Prices() {
             {/* Senior Prices Section */}
             <motion.div className="flex flex-col gap-4 w-full" variants={itemVariants}>
               <motion.h2
-                className="text-[40px] md:text-[48px] font-semibold -tracking-widest text-[#FFD600] md:text-center"
+                className="text-[40px] md:text-[48px] font-semibold tracking-[-5%] text-[#FFD600] md:text-center"
                 variants={itemVariants}
               >
                 Senior Memberships
@@ -240,7 +240,7 @@ export default function Prices() {
             {/* Kids Prices Section */}
             <motion.div className="flex flex-col gap-4 w-full" variants={itemVariants}>
               <motion.h2
-                className="text-[40px] md:text-[48px] font-semibold -tracking-widest text-[#FFD600] md:text-center"
+                className="text-[40px] md:text-[48px] font-semibold tracking-[-5%] text-[#FFD600] md:text-center"
                 variants={itemVariants}
               >
                 Kids Memberships

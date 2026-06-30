@@ -61,21 +61,21 @@ export default function Sponsers() {
           <div className="flex flex-col gap-2 sm:items-center sm:gap-4">
             <motion.h3
               variants={itemVariants}
-              className="text-base font-normal -tracking-widest uppercase"
+              className="text-base font-normal tracking-[-5%] uppercase"
             >
               Our Sponsors
             </motion.h3>
 
             <motion.h2
               variants={itemVariants}
-              className="-mt-2 text-[40px] leading-10 font-semibold -tracking-widest text-[#FFD600] sm:leading-none xl:text-[60px]"
+              className="-mt-2 text-[40px] leading-10 font-semibold tracking-[-5%] text-[#FFD600] sm:leading-none xl:text-[60px]"
             >
               Partners Who Support Us
             </motion.h2>
 
             <motion.p
               variants={itemVariants}
-              className="text-[14px] font-light -tracking-widest sm:w-[80%] sm:text-center xl:w-[70%]"
+              className="text-[14px] font-light tracking-[-5%] sm:w-[80%] sm:text-center xl:w-[70%]"
             >
               We are proud to be supported by our sponsors, funders and community partners, whose
               support helps us provide accessible boxing, fitness and wellbeing opportunities. Each

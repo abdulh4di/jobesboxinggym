@@ -48,7 +48,7 @@ export default function AboutUs() {
               className="flex flex-col items-center text-center md:text-start md:items-start md:gap-4"
               variants={itemVariants}
             >
-              <h3 className="text-base font-normal -tracking-widest uppercase">About Us</h3>
+              <h3 className="text-base font-normal tracking-[-5%] uppercase">About Us</h3>
               <h2 className="text-[28px] sm:text-[32px] md:text-[40px] lg:text-[48px] xl:text-[60px] font-semibold tracking-tighter leading-7.5 md:leading-9 lg:leading-11 xl:leading-13 w-[80%] sm:w-[60%] md:w-[80%] lg:w-[80%] xl:w-[70%]">
                 Built on standards,<span className="text-[#FFD600] italic leading-7.5"> safety and a passion</span> for boxing
               </h2>

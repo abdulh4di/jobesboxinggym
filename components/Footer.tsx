@@ -59,7 +59,7 @@ export default function Footer() {
           >
             {/* Content 1 */}
             <motion.div variants={itemVariants} className="flex flex-col gap-4">
-              <div className="flex flex-col text-base leading-6 -tracking-widest">
+              <div className="flex flex-col text-base leading-6 tracking-[-5%]">
                 <span>Jobes Boxing & Fitness Gym CIC</span>
                 <span>West Fifteen - Unit 4, Whickham View</span>
                 <span>Newcastle upon Tyne</span>
@@ -83,9 +83,9 @@ export default function Footer() {
 
             {/* Content 2 */}
             <motion.div variants={itemVariants} className="flex flex-col gap-4">
-              <h2 className="text-[24px] font-semibold -tracking-widest">Pages</h2>
+              <h2 className="text-[24px] font-semibold tracking-[-5%]">Pages</h2>
 
-              <div className="flex flex-col -tracking-widest">
+              <div className="flex flex-col tracking-[-5%]">
                 <FooterLink href="/">Home</FooterLink>
                 <FooterLink href="/about">About</FooterLink>
                 <FooterLink href="/prices">Prices</FooterLink>
@@ -96,9 +96,9 @@ export default function Footer() {
 
             {/* Content 3 */}
             <motion.div variants={itemVariants} className="flex flex-col gap-4">
-              <h2 className="text-[24px] font-semibold -tracking-widest">Senior Sessions</h2>
+              <h2 className="text-[24px] font-semibold tracking-[-5%]">Senior Sessions</h2>
 
-              <div className="flex flex-col gap-2 text-base -tracking-widest">
+              <div className="flex flex-col gap-2 text-base tracking-[-5%]">
                 <div className="flex flex-col gap-1">
                   <span>Monday - Saturday</span>
                   <span>10am - 12pm</span>
@@ -113,11 +113,11 @@ export default function Footer() {
 
             {/* Content 4 */}
             <motion.div variants={itemVariants} className="flex flex-col gap-4">
-              <h2 className="text-[24px] font-semibold -tracking-widest">
+              <h2 className="text-[24px] font-semibold tracking-[-5%]">
                 Kids Sessions <span className="text-base font-normal">(age 8+)</span>
               </h2>
 
-              <div className="flex flex-col gap-2 text-base -tracking-widest">
+              <div className="flex flex-col gap-2 text-base tracking-[-5%]">
                 <span>Monday, Wednesday & Friday</span>
                 <span>5pm - 6pm</span>
               </div>
@@ -125,11 +125,11 @@ export default function Footer() {
 
             {/* Content 5 */}
             <motion.div variants={itemVariants} className="flex flex-col gap-4">
-              <h2 className="text-[24px] font-semibold -tracking-widest">
+              <h2 className="text-[24px] font-semibold tracking-[-5%]">
                 Free Sessions <span className="text-base font-normal">(age 13-19)</span>
               </h2>
 
-              <div className="flex flex-col gap-2 text-base -tracking-widest">
+              <div className="flex flex-col gap-2 text-base tracking-[-5%]">
                 <span>Tuesday & Thursday</span>
                 <span>4:30pm - 6pm</span>
               </div>
@@ -137,9 +137,9 @@ export default function Footer() {
 
             {/* Content 6 */}
             <motion.div variants={itemVariants} className="flex flex-col gap-4">
-              <h2 className="text-[24px] font-semibold -tracking-widest">Follow</h2>
+              <h2 className="text-[24px] font-semibold tracking-[-5%]">Follow</h2>
 
-              <div className="flex flex-col gap-2 text-base -tracking-widest">
+              <div className="flex flex-col gap-2 text-base tracking-[-5%]">
                 <motion.a
                   href="https://www.facebook.com/jobesboxingandfitnessgym/"
                   target="_blank"

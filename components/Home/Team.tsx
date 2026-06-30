@@ -72,14 +72,14 @@ export default function Team() {
         >
           <motion.h3
             variants={itemVariants}
-            className="text-base font-normal -tracking-widest uppercase"
+            className="text-base font-normal tracking-[-5%] uppercase"
           >
             Our team
           </motion.h3>
 
           <motion.h2
             variants={itemVariants}
-            className="-mt-6 text-[40px] font-semibold -tracking-widest text-[#FFD600] xl:text-[60px]"
+            className="-mt-6 text-[40px] font-semibold tracking-[-5%] text-[#FFD600] xl:text-[60px]"
           >
             Meet Our Team
           </motion.h2>
@@ -95,21 +95,21 @@ export default function Team() {
               <div className="flex flex-col gap-2">
                 <motion.h3
                   variants={itemVariants}
-                  className="text-base font-normal -tracking-widest uppercase"
+                  className="text-base font-normal tracking-[-5%] uppercase"
                 >
                   Join The Team
                 </motion.h3>
 
                 <motion.h2
                   variants={itemVariants}
-                  className="text-[24px] font-semibold -tracking-widest uppercase xl:text-[40px] xl:leading-12"
+                  className="text-[24px] font-semibold tracking-[-5%] uppercase xl:text-[40px] xl:leading-12"
                 >
                   Personalised Boxing Coaching
                 </motion.h2>
 
                 <motion.p
                   variants={itemVariants}
-                  className="text-[14px] leading-5 font-normal -tracking-widest sm:w-[80%] lg:text-[16px]"
+                  className="text-[14px] leading-5 font-normal tracking-[-5%] sm:w-[80%] lg:text-[16px]"
                 >
                   Get focused support from experienced boxing coaches to build technique, fitness
                   and confidence at your own pace.
@@ -122,7 +122,7 @@ export default function Team() {
                 whileHover={{ scale: 0.98 }}
                 whileTap={{ scale: 0.96 }}
                 transition={hoverTransition}
-                className="mb-2 w-fit rounded-xl border border-transparent bg-white px-8 py-3 text-[14px] font-semibold -tracking-widest uppercase hover:border-black hover:bg-transparent lg:text-[16px]"
+                className="mb-2 w-fit rounded-xl border border-transparent bg-white px-8 py-3 text-[14px] font-semibold tracking-[-5%] uppercase hover:border-black hover:bg-transparent lg:text-[16px]"
               >
                 View More
               </motion.a>

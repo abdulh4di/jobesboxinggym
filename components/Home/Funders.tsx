@@ -4,7 +4,7 @@ export default function Funders() {
   return (
 <section>
   <div className="py-20 flex flex-col sm:items-center gap-8 px-4 justify-start w-full overflow-hidden">
-    <p className=" text-[14px] -tracking-widest font-light sm:text-center w-[80%] md:w-[60%]">
+    <p className=" text-[14px] tracking-[-5%] font-light sm:text-center w-[80%] md:w-[60%]">
       Our funders and partners help us provide affordable boxing, youth programmes, community
       sessions and positive opportunities across Newcastle.
     </p>

@@ -38,21 +38,21 @@ export default function FundersPartners() {
         >
           <motion.h3
             variants={itemVariants}
-            className="text-base font-normal -tracking-widest uppercase"
+            className="text-base font-normal tracking-[-5%] uppercase"
           >
             Testimonials
           </motion.h3>
 
           <motion.h2
             variants={itemVariants}
-            className="-mt-2 text-[40px] leading-10 font-semibold -tracking-widest text-[#FFD600] sm:leading-none xl:text-[60px]"
+            className="-mt-2 text-[40px] leading-10 font-semibold tracking-[-5%] text-[#FFD600] sm:leading-none xl:text-[60px]"
           >
             Our Funders & Partners
           </motion.h2>
 
           <motion.p
             variants={itemVariants}
-            className="text-[14px] font-light mb-10 -tracking-widest sm:w-[80%] md:text-center lg:w-[70%] xl:w-[50%]"
+            className="text-[14px] font-light mb-10 tracking-[-5%] sm:w-[80%] md:text-center lg:w-[70%] xl:w-[50%]"
           >
             At Jobes Boxing & Fitness Gym CIC, the support of our funders and partners helps us
             improve health, wellbeing and opportunities through affordable boxing, fitness
@@ -61,7 +61,7 @@ export default function FundersPartners() {
 
           <motion.h2
             variants={itemVariants}
-            className="-mt-2 text-[20px] leading-10 font-semibold -tracking-widest text-[#FFD600] sm:leading-none xl:text-[30px]"
+            className="-mt-2 text-[20px] leading-10 font-semibold tracking-[-5%] text-[#FFD600] sm:leading-none xl:text-[30px]"
           >
             Proudly Supported By
           </motion.h2>

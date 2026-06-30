@@ -34,14 +34,14 @@ export default function MoreThanBoxing() {
             />
             <div className="absolute inset-0 bg-black/60"></div>
             <div className="absolute inset-0 flex flex-col justify-end text-white py-3 px-4 sm:py-6">
-              <h3 className="text-base font-medium -tracking-widest uppercase">
+              <h3 className="text-base font-medium tracking-[-5%] uppercase">
                 More than a boxing gym
               </h3>
               <div className="flex flex-col">
-                <span className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[80px] xl:text-[100px] font-semibold -tracking-widest text-[#FFD600] sm:-mt-1 lg:-mt-5">
+                <span className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[80px] xl:text-[100px] font-semibold tracking-[-5%] text-[#FFD600] sm:-mt-1 lg:-mt-5">
                   Building
                 </span>
-                <span className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[80px] xl:text-[100px] font-semibold -tracking-widest -mt-3 sm:-mt-5 md:-mt-7 lg:-mt-12">
+                <span className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[80px] xl:text-[100px] font-semibold tracking-[-5%] -mt-3 sm:-mt-5 md:-mt-7 lg:-mt-12">
                   Stronger Futures
                 </span>
               </div>
@@ -67,10 +67,10 @@ export default function MoreThanBoxing() {
               <div className="absolute inset-0 bg-black/50"></div>
               <div className="absolute inset-0 flex flex-col justify-end text-white py-3 px-4 sm:py-6">
                 <div className="flex flex-col">
-                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold -tracking-widest text-[#FFD600]">
+                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold tracking-[-5%] text-[#FFD600]">
                     Building
                   </span>
-                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold -tracking-widest -mt-3 sm:-mt-5">
+                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold tracking-[-5%] -mt-3 sm:-mt-5">
                     Stronger Minds
                   </span>
                 </div>
@@ -95,10 +95,10 @@ export default function MoreThanBoxing() {
               <div className="absolute inset-0 bg-black/50"></div>
               <div className="absolute inset-0 flex flex-col justify-start text-white py-3 px-4 sm:py-6">
                 <div className="flex flex-col">
-                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold -tracking-widest text-[#FFD600]">
+                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold tracking-[-5%] text-[#FFD600]">
                     Building
                   </span>
-                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold -tracking-widest -mt-3 sm:-mt-5">
+                  <span className="text-[28px] sm:text-[36px] md:text-[48px] font-semibold tracking-[-5%] -mt-3 sm:-mt-5">
                     Stronger Bodies
                   </span>
                 </div>

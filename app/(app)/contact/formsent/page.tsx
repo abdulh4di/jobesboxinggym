@@ -50,7 +50,7 @@ export default function FormSent() {
 
           {/* Heading */}
           <motion.h1
-            className="text-[40px] sm:text-[48px] md:text-[60px] font-semibold -tracking-widest text-white"
+            className="text-[40px] sm:text-[48px] md:text-[60px] font-semibold tracking-[-5%] text-white"
             variants={itemVariants}
           >
             Message Sent!

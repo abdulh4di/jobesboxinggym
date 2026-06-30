@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="px-4 flex flex-col gap-9 items-center">
           <div className="flex flex-col gap-2 items-center text-center">
             <motion.h2
-              className="text-[16px] font-normal -tracking-widest"
+              className="text-[16px] font-normal tracking-[-5%]"
               variants={lineVariants}
               initial="hidden"
               animate="visible"
@@ -37,7 +37,7 @@ export default function Hero() {
               EST.2014 JOBES BOXING GYM NEWCASTLE
             </motion.h2>
             <motion.div
-              className="font-extrabold text-[28px] 500:text-[40px] sm:text-[50px] lg:text-[60px] xl:text-[80px] -tracking-widest flex flex-col"
+              className="font-extrabold text-[28px] 500:text-[40px] sm:text-[50px] lg:text-[60px] xl:text-[80px] tracking-[-5%] flex flex-col"
               variants={containerVariants}
               initial="hidden"
               animate="visible"
@@ -53,7 +53,7 @@ export default function Hero() {
               </motion.h1>
             </motion.div>
             <motion.p
-              className="font-light text-[14px] lg:text-[16px] -tracking-widest max-w-75 sm:max-w-full"
+              className="font-light text-[14px] lg:text-[16px] tracking-[-5%] max-w-75 sm:max-w-full"
               variants={lineVariants}
               initial="hidden"
               animate="visible"
@@ -72,7 +72,7 @@ export default function Hero() {
               href="https://legitfit.com/authenticate/signup/jobesboxing"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[14px] lg:text-[16px] uppercase font-semibold text-black -tracking-widest bg-white px-6 py-3 rounded-lg cursor-pointer border border-transparent hover:scale-95 hover:bg-transparent hover:border-white hover:text-white transition-all duration-300 inline-block"
+              className="text-[14px] lg:text-[16px] uppercase font-semibold text-black tracking-[-5%] bg-white px-6 py-3 rounded-lg cursor-pointer border border-transparent hover:scale-95 hover:bg-transparent hover:border-white hover:text-white transition-all duration-300 inline-block"
             >
               Get started
             </Link>

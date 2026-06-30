@@ -66,7 +66,7 @@ export default function Value() {
               </motion.span>
             </motion.div>
             <motion.p
-              className="text-[14px] lg:text-[16px] font-normal -tracking-widest leading-5 w-full sm:w-3/4 md:w-3/5 lg:w-2/5 xl:w-1/3"
+              className="text-[14px] lg:text-[16px] font-normal tracking-[-5%] leading-5 w-full sm:w-3/4 md:w-3/5 lg:w-2/5 xl:w-1/3"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}

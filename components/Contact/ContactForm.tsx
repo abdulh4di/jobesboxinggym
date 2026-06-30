@@ -84,13 +84,13 @@ export default function ContactForm() {
               variants={containerVariants}
             >
               <motion.h3
-                className="text-base font-normal -tracking-widest uppercase"
+                className="text-base font-normal tracking-[-5%] uppercase"
                 variants={itemVariants}
               >
                 Contact
               </motion.h3>
               <motion.h2
-                className="-mt-2 text-[40px] leading-10 font-semibold -tracking-widest text-white sm:leading-none"
+                className="-mt-2 text-[40px] leading-10 font-semibold tracking-[-5%] text-white sm:leading-none"
                 variants={itemVariants}
               >
                 Just a{" "}

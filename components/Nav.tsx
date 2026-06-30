@@ -107,7 +107,7 @@ export default function Nav() {
                   href="https://legitfit.com/authenticate/signup/jobesboxing"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex cursor-pointer items-center gap-1 rounded-lg border-2 border-white px-4 py-3 text-[14px] font-bold -tracking-widest uppercase transition-colors duration-300 hover:bg-white hover:text-black md:py-4 md:px-5"
+                  className="flex cursor-pointer items-center gap-1 rounded-lg border-2 border-white px-4 py-3 text-[14px] font-bold tracking-[-5%] uppercase transition-colors duration-300 hover:bg-white hover:text-black md:py-4 md:px-5"
                 >
                   Book a session
                   <LuArrowRight className="text-[20px]" />

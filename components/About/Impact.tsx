@@ -69,7 +69,7 @@ export default function Impact() {
           viewport={{ once: true, amount: 0.2 }}
         >
           <motion.h2
-            className="-mt-2 text-[40px] leading-10 font-semibold -tracking-widest text-[#FFD600] sm:leading-none xl:text-[60px]"
+            className="-mt-2 text-[40px] leading-10 font-semibold tracking-[-5%] text-[#FFD600] sm:leading-none xl:text-[60px]"
             variants={itemVariants}
           >
             Community Impact
@@ -101,7 +101,7 @@ export default function Impact() {
           </motion.div>
 
           <motion.span
-            className="text-[32px] sm:text-[40px] lg:text[50px] xl:text-[60px] -tracking-widest font-semibold leading-9 sm:leading-10 xl:leading-15 text-[#E6E6E6]/52 italic sm:text-center"
+            className="text-[32px] sm:text-[40px] lg:text[50px] xl:text-[60px] tracking-[-5%] font-semibold leading-9 sm:leading-10 xl:leading-15 text-[#E6E6E6]/52 italic sm:text-center"
             variants={itemVariants}
           >
             Thank you to all our funders, partners, volunteers, members, and supporters who help

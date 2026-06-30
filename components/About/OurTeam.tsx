@@ -47,13 +47,13 @@ export default function OurTeam() {
             {/* Team Heading & Para */}
             <div className="flex flex-col justify-center sm:items-center sm:text-center">
               <motion.h2
-                className="text-[40px] font-semibold -tracking-widest text-[#FFD600] xl:text-[60px]"
+                className="text-[40px] font-semibold tracking-[-5%] text-[#FFD600] xl:text-[60px]"
                 variants={itemVariants}
               >
                 Meet Our Team
               </motion.h2>
               <motion.p
-                className="text-[14px] leading-5 font-normal -tracking-widest w-[90%] sm:w-full lg:text-[16px]"
+                className="text-[14px] leading-5 font-normal tracking-[-5%] w-[90%] sm:w-full lg:text-[16px]"
                 variants={itemVariants}
               >
                 Our coaches provide clear guidance, support and experience to help members train
@@ -74,8 +74,8 @@ export default function OurTeam() {
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-32 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                  <h3 className="text-[20px] font-semibold -tracking-widest">Mark Taylor</h3>
-                  <div className="text-[14px] font-semibold text-[#A7A3A3] -tracking-widest flex flex-col">
+                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Mark Taylor</h3>
+                  <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>BBBoc Professional Boxing Coach</span>
                     <span>Level 1 England Boxing Coach</span>
                   </div>
@@ -90,8 +90,8 @@ export default function OurTeam() {
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-32 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                  <h3 className="text-[20px] font-semibold -tracking-widest">Matt Jobes</h3>
-                  <div className="text-[14px] font-semibold text-[#A7A3A3] -tracking-widest flex flex-col">
+                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Matt Jobes</h3>
+                  <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>BBBoc Professional Boxing Coach</span>
                     <span>Level 1 England Boxing Amateur Coach & Official</span>
                   </div>
@@ -106,8 +106,8 @@ export default function OurTeam() {
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-32 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                  <h3 className="text-[20px] font-semibold -tracking-widest">Danny Boyle</h3>
-                  <div className="text-[14px] font-semibold text-[#A7A3A3] -tracking-widest flex flex-col">
+                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Danny Boyle</h3>
+                  <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>BBBoc Professional Boxing Coach</span>
                     <span>Level 1 & 2 England Boxing Coach</span>
                   </div>
@@ -126,8 +126,8 @@ export default function OurTeam() {
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-28 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                <h3 className="text-[20px] font-semibold -tracking-widest">Ricky Callison</h3>
-                  <div className="text-[14px] font-semibold text-[#A7A3A3] -tracking-widest flex flex-col">
+                <h3 className="text-[20px] font-semibold tracking-[-5%]">Ricky Callison</h3>
+                  <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>Level 1 & 2 England Boxing Coach</span>
                   </div>
                 </div>
@@ -145,8 +145,8 @@ export default function OurTeam() {
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-28 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                <h3 className="text-[20px] font-semibold -tracking-widest">Libby Jobes</h3>
-                  <div className="text-[14px] font-semibold text-[#A7A3A3] -tracking-widest flex flex-col">
+                <h3 className="text-[20px] font-semibold tracking-[-5%]">Libby Jobes</h3>
+                  <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>Level 1 England Boxing Coach</span>
                   </div>
                 </div>
