@@ -57,6 +57,9 @@ export default function Nav() {
   };
 
   return (
+
+    <>
+    
     <nav
       className={`fixed top-0 left-0 z-50 w-full transition-all duration-500 ease-out ${
         scrolled ? "border-b border-b-white/30 bg-black/50 backdrop-blur-md" : "bg-transparent pt-3"
@@ -129,6 +132,22 @@ export default function Nav() {
       </div>
       <AnimatePresence>{menuOpen && <Menu setMenuOpen={setMenuOpen} />}</AnimatePresence>{" "}
     </nav>
+      {/* <motion.a
+        href="https://wa.me/447702092088"
+        target="_blank"
+        rel="noopener noreferrer"
+        initial={{ opacity: 0, y: -80 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 0.8,
+
+          ease: [0.22, 1, 0.36, 1],
+
+          delay: 0.6,
+        }}
+        className="fixed right-5 bottom-40 z-50 h-20 w-15 animate-bounce cursor-pointer border border-[#757575] bg-[url('/assets/AccessGranted.jpg')] bg-cover bg-center sm:h-35 sm:w-30 xl:right-10"
+      ></motion.a> */}
+    </>
   );
 }
 

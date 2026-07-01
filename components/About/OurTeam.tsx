@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { motion } from "framer-motion";
 import Padding from "../Padding";
 
@@ -74,10 +74,10 @@ export default function OurTeam() {
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-32 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Mark Taylor</h3>
+                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Matt Jobes</h3>
                   <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>BBBoc Professional Boxing Coach</span>
-                    <span>Level 1 England Boxing Coach</span>
+                    <span>Level 1 England Boxing Amateur Coach & Official</span>
                   </div>
                 </div>
               </motion.div>
@@ -88,12 +88,11 @@ export default function OurTeam() {
                   <img src="/assets/MarkTaylor.png" alt="" className="w-full h-full object-top" />
                   <div className="absolute inset-0 bg-black/50"></div>
                 </figure>
-
                 <div className="flex flex-col justify-between h-27.5 sm:h-32 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Matt Jobes</h3>
+                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Mark Taylor</h3>
                   <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>BBBoc Professional Boxing Coach</span>
-                    <span>Level 1 England Boxing Amateur Coach & Official</span>
+                    <span>Level 1 England Boxing Coach</span>
                   </div>
                 </div>
               </motion.div>
@@ -126,7 +125,7 @@ export default function OurTeam() {
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-28 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                <h3 className="text-[20px] font-semibold tracking-[-5%]">Ricky Callison</h3>
+                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Ricky Callison</h3>
                   <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>Level 1 & 2 England Boxing Coach</span>
                   </div>
@@ -136,16 +135,12 @@ export default function OurTeam() {
               {/* Member 5 */}
               <motion.div className="flex flex-col gap-4" variants={cardVariants}>
                 <figure className="relative rounded-3xl overflow-hidden h-110 w-85 sm:w-100 md:w-82 xl:w-92 xl:h-120">
-                  <img
-                    src="/assets/LibbyJobes.jpg"
-                    alt=""
-                    className="w-full h-full object-cover"
-                  />
+                  <img src="/assets/LibbyJobes.jpg" alt="" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-black/50"></div>
                 </figure>
 
                 <div className="flex flex-col justify-between h-27.5 sm:h-28 bg-[#FFFFFF]/6 p-4 rounded-3xl">
-                <h3 className="text-[20px] font-semibold tracking-[-5%]">Libby Jobes</h3>
+                  <h3 className="text-[20px] font-semibold tracking-[-5%]">Libby Jobes</h3>
                   <div className="text-[14px] font-semibold text-[#A7A3A3] tracking-[-5%] flex flex-col">
                     <span>Level 1 England Boxing Coach</span>
                   </div>

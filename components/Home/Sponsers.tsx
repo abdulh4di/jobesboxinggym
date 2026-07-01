@@ -96,7 +96,7 @@ export default function Sponsers() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.985 }}
                 transition={logoHoverTransition}
-                className="w-87.5 h-87.5 rounded-2xl overflow-hidden"
+                className="w-80 h-87.5 rounded-2xl overflow-hidden"
               >
                 <img src="/assets/AccessGranted.jpg" alt="" className="h-full w-full" />
               </motion.a>
@@ -109,7 +109,7 @@ export default function Sponsers() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.985 }}
                 transition={logoHoverTransition}
-                className="w-87.5 h-87.5 rounded-2xl overflow-hidden"
+                className="w-80 h-87.5 rounded-2xl overflow-hidden"
               >
                 <img src="/assets/Abbeyview.jpg" alt="" className="h-full w-full" />
               </motion.a>
