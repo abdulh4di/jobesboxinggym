@@ -88,7 +88,7 @@ export default function Footer() {
               <div className="flex flex-col tracking-[-5%]">
                 <FooterLink href="/">Home</FooterLink>
                 <FooterLink href="/about">About</FooterLink>
-                <FooterLink href="/prices">Prices</FooterLink>
+                <FooterLink href="/pricing">Prices</FooterLink>
                 <FooterLink href="/gallery">Gallery</FooterLink>
                 <FooterLink href="/contact">Contact</FooterLink>
               </div>
