@@ -90,7 +90,7 @@ export default function Sponsers() {
               {/* Card 1 */}
               <motion.a
                 variants={logoVariants}
-                href="https://wa.me/447702092088"
+                href="https://wa.me/447777474195"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
